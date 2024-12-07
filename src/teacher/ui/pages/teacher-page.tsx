@@ -4,6 +4,7 @@ import { Textarea } from "~/common/ui/shadcn/components/ui/textarea";
 import { cn } from "~/common/ui/shadcn/lib/utils";
 import { textStyles } from "~/common/ui/styles/text-styles";
 
+// eslint-disable-next-line no-empty-pattern
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
