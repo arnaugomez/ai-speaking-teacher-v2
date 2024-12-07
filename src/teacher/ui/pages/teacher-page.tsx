@@ -23,6 +23,7 @@ export default function Home() {
 }
 
 function TeacherForm() {
+  console.log(import.meta.env.VITE_OPENAI_API_KEY)
   return (
     <form>
       <h1 className={cn(textStyles.h1)}>AI speaking lessons</h1>
